@@ -1,0 +1,16 @@
+{
+  "name": "cinematic-web-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "package": "python scripts/package.py"
+  },
+  "dependencies": {"three": "0.186.1"},
+  "devDependencies": {"esbuild": "0.25.12", "playwright": "1.56.1", "yaml": "2.8.1"}
+}

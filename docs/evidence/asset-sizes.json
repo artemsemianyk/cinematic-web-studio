@@ -1,0 +1,18 @@
+{
+  "scene.js": {
+    "bytes": 638968,
+    "gzipBytes": 160586
+  },
+  "cup.glb": {
+    "bytes": 122808,
+    "gzipBytes": 34860
+  },
+  "style.css": {
+    "bytes": 6795,
+    "gzipBytes": 2444
+  },
+  "motion.js": {
+    "bytes": 1490,
+    "gzipBytes": 739
+  }
+}

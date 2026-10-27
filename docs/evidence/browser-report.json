@@ -1,0 +1,76 @@
+{
+  "time": "2026-10-27T10:03:12.831Z",
+  "browser": "149.0.7827.55",
+  "checks": [
+    {
+      "name": "cinematic-landing-desktop",
+      "status": "passed",
+      "three": false,
+      "story": false,
+      "requests": 4
+    },
+    {
+      "name": "cinematic-landing-mobile",
+      "status": "passed",
+      "three": false,
+      "story": false,
+      "requests": 4
+    },
+    {
+      "name": "interactive-3d-desktop",
+      "status": "passed",
+      "three": true,
+      "story": false,
+      "requests": 6
+    },
+    {
+      "name": "interactive-3d-mobile",
+      "status": "passed",
+      "three": true,
+      "story": false,
+      "requests": 6
+    },
+    {
+      "name": "scroll-animation-desktop",
+      "status": "passed",
+      "three": false,
+      "story": true,
+      "requests": 4
+    },
+    {
+      "name": "scroll-animation-mobile",
+      "status": "passed",
+      "three": false,
+      "story": true,
+      "requests": 4
+    },
+    {
+      "name": "coffee-acceptance-desktop",
+      "status": "passed",
+      "three": true,
+      "story": true,
+      "requests": 6
+    },
+    {
+      "name": "coffee-acceptance-mobile",
+      "status": "passed",
+      "three": true,
+      "story": true,
+      "requests": 6
+    },
+    {
+      "name": "reduced-motion",
+      "status": "passed"
+    },
+    {
+      "name": "missing-model-fallback",
+      "status": "passed"
+    },
+    {
+      "name": "no-webgl-fallback",
+      "status": "passed"
+    }
+  ],
+  "failures": [],
+  "scope": "Desktop and mobile Chromium emulation; not physical devices or Safari"
+}

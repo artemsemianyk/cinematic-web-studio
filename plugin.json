@@ -1,0 +1,50 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cinematic-web-studio",
+  "version": "0.1.0",
+  "description": "Create cinematic websites through reusable design, animation, media, 3D, performance, QA and export workflows. Requires a host with code execution and browser tools.",
+  "author": {
+    "name": "Artem Semianyk"
+  },
+  "license": "MIT",
+  "keywords": [
+    "websites",
+    "animation",
+    "threejs",
+    "design"
+  ],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "interface": {
+        "displayName": "Cinematic Web Studio",
+        "shortDescription": "Build cinematic websites",
+        "longDescription": "Skills and original runnable examples for creating, testing and exporting responsive cinematic websites. Includes real GLB interaction, scroll choreography and local assets. Uses tools provided by the host; it does not supply a cloud execution service or paid media generation.",
+        "developerName": "Artem Semianyk",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Create a cinematic website for my product.",
+          "Build an interactive coffee website with a real 3D cup."
+        ],
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png"
+      },
+      "review": {
+        "prompts": [
+          "Create a premium interactive coffee website. Rotate the cup and move the camera on scroll. Support desktop and mobile.",
+          "Create a cinematic product page using lightweight CSS animation.",
+          "Export my website source as a ZIP without publishing it."
+        ]
+      },
+      "publication": {
+        "release_notes": "Initial skills-only release with original demos, GLB asset, local scaffold/export and browser QA."
+      }
+    }
+  },
+  "repository": "https://github.com/artemsemianyk/cinematic-web-studio",
+  "homepage": "https://github.com/artemsemianyk/cinematic-web-studio"
+}
