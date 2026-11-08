@@ -91,3 +91,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md). Keep keys
 This independent project is not an official OpenAI product and is not endorsed by OpenAI or MotionSites.
 
 The plugin is free. Publisher support: https://artemsemianyk.de . The GitHub v0.1.0 release is a public developer preview; the OpenAI directory listing has not been submitted or approved.
+
+## Support and policies
+
+[Email support](docs/support.md) · [Privacy Notice](docs/privacy.md) · [Terms of Use](docs/terms.md).
