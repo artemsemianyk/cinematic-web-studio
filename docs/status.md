@@ -19,7 +19,7 @@ The first sandboxed browser launch failed before a page opened; the same harness
 
 ## Acceptance boundary
 
-The coffee prompt was implemented through the packaged workflow and a separate template export. This is a technical integration test, not proof of automatic skill activation in ChatGPT. Direct installed-plugin invocation and fresh/existing-chat onboarding remain unverified unless a later account report explicitly records them. No inaccessible host behavior is claimed as passed.
+The coffee prompt was implemented through the packaged workflow and a separate template export. This is a technical integration test, not proof of automatic skill activation in ChatGPT. See the 2026-11-08 addendum below for observed installed-skill execution. Automatic selection in a fresh ChatGPT Web conversation and fresh/existing-chat onboarding remain unverified.
 
 ## Distribution
 
@@ -32,3 +32,17 @@ Eight skills, original icon, author metadata, review prompts and release notes a
 ## Remaining test limits
 
 No physical-device, Safari, Firefox, field Core Web Vitals or paid media-provider integration test. GSAP, R3F, WebGPU and video generation are optional guidance rather than tested demo code. No production hosting is provisioned.
+
+
+## Installed-plugin acceptance addendum — 2026-11-08
+
+- Official Plugin Creator saved the personal PRIVATE plugin at https://chatgpt.com/plugins/plugins_6ae077ba6b408191a9c8e4021a74d0f9 , version 0.1.0, release pluginrel_6ae077bcecec8191b528722c1948cd0b. Metadata was rechecked on this date.
+- Codex CLI installed cinematic-web-studio@cinematic-web-studio-local and returned installed=true, enabled=true. The host skill catalog also exposes all eight skills from the account-saved created-by-me-remote package.
+- A real Codex CLI acceptance invocation selected the installed plugin, read website-architect/SKILL.md from its installed cache and executed its scaffold to produce a separate coffee site. That run stopped after missing Python/npm environment errors and an account usage limit. It did not complete end to end by itself.
+- The current host then read the account-installed architect, media, animation, 3D, performance, QA and export skills, completed the generated site's brand copy, and ran its browser harness. Five checks passed, zero failed, Chromium 149.0.7827.55 at desktop/mobile viewports plus reduced motion and asset/WebGL failure paths. Screenshots were inspected.
+- Evidence: installed-plugin-acceptance.json and installed-generated-*-start.png in docs/evidence. The separate source archive is supplied in the delivery report. This is a resumed installed-skill workflow, not a claim of an uninterrupted CLI run or verified implicit selection in ChatGPT Web.
+- GitHub Actions runs 40486035091 and 40486061709 both completed successfully, including build, structural tests, browser tests and screenshot artifact upload.
+
+## Publisher decisions confirmed — 2026-11-08
+
+The plugin is free, all available countries are intended, and the publisher selected https://artemsemianyk.de for support. The homepage was fetched successfully and identifies Artem Semianyk with a contact route. Its existing /datenschutz page is marked as awaiting owner review and describes the website, not this plugin. No plugin terms page was found in the inspected navigation. A separate public submission candidate records confirmed metadata; policy/terms URLs and portal verification remain incomplete. No public directory submission or approval is claimed.

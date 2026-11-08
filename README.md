@@ -12,7 +12,7 @@ Turn a natural-language brief into an original responsive website with deliberat
 
 ## Quick start
 
-Install the private plugin through the verified link supplied in the creation report. Select Cinematic Web Studio in ChatGPT Work or Codex and ask:
+Install the [private Cinematic Web Studio plugin](https://chatgpt.com/plugins/plugins_6ae077ba6b408191a9c8e4021a74d0f9). Select Cinematic Web Studio in ChatGPT Work or Codex and ask:
 
 > Create a premium interactive coffee website. Use a real 3D cup, cinematic lighting, scroll-controlled rotation and camera movement. Support desktop and mobile and give me the source.
 
@@ -89,3 +89,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md). Keep keys
 [MotionSites](https://github.com/MotionSites-AI/claude-skill) was researched as a technical reference. Its prompt/media collection is not redistributed or used by these examples. See [research and architecture](references/architecture.md) for findings and license boundaries.
 
 This independent project is not an official OpenAI product and is not endorsed by OpenAI or MotionSites.
+
+The plugin is free. Publisher support: https://artemsemianyk.de . The GitHub v0.1.0 release is a public developer preview; the OpenAI directory listing has not been submitted or approved.
